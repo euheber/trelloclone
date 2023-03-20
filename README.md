@@ -15,11 +15,22 @@ Esse projeto é um clone do site Trello, foi feito durante a Vue School free wee
 
 ### Features
 
-* É possível arrastar colunas para outro lugares, ela substituíra  a posição da coluna que estava naquela posição. Para fazer isso, vá com o mouse até onde está marcado em amarelo no print.
+* É possível arrastar uma coluna para outra e susbituir a posição da coluna que esta naquela posição. Para fazer isso, vá com o mouse até onde está marcado em amarelo no print.
 
 <p align="center">
   <img src=".github/moveColumn.png" width="100%" />
 </p>
+
+* Para acrescentar uma coluna, clique em ADD another column, digite o nome da coluna e confirme com a tecla ENTER. A coluna será adicionada.
+
+* Para deletar uma coluna, clique no nome e apague todo conteudo. A coluna será deletada.
+
+* Para editar o nome da coluna, clique no seu nome, digite o novo nome e confirme com a tecla ENTER.
+<p align="center">
+  <img src=".github/editColumn.png" width="100%" />
+</p>
+
+* Para acrescentar uma tarefa, clique em Add a card, digite o nome da tarefa e confirme com a tecla TAB. Uma nova tarefa será adicionada na coluna.
 
 * Também é possível movimentar a ordem das tarefas dentro da coluna.
 
@@ -27,14 +38,7 @@ Esse projeto é um clone do site Trello, foi feito durante a Vue School free wee
   <img src=".github/moveTask.png" width="100%" />
 </p>
 
-* Para acrescentar uma coluna, clique em ADD another column, digite o nome da coluna e confirme com a tecla ENTER. A coluna será adicionada.
 
-* Para editar o nome uma coluna, clique no seu nome, digite o novo nome e confirme com a tecla ENTER.
-<p align="center">
-  <img src=".github/editColumn.png" width="100%" />
-</p>
-
-* Para acrescentar uma tarefa, clique em Add a card, digite o nome da tarefa e confirme com a tecla TAB. Uma nova tarefa será adicionada na coluna.
 * Para deletar uma tarefa, clique na tarefa desejada, pressione a tecla Backspace. A tarefa será apagada.
 
 ## 💻 Como executar o projeto
@@ -44,14 +48,10 @@ Para executar o projeto em sua máquina, siga os seguintes passos:
 Faça um clone deste repositório em sua máquina:
 
 ```
-git clone https://github.com/seu-usuario/devcommerce.git
+git clone https://github.com/euheber/trelloclone.git
 ```
 
-Acesse o diretório do projeto:
-```
-cd devcommerce
-```
-Instale as dependências do projeto:
+Acesse o diretório e instale as dependências do projeto:
 ```
 npm install
 ```
